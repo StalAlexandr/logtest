@@ -13,7 +13,7 @@ public class ClassWithSlf4JLogger {
         if (i > 0) {
             logger.info(" - параметр i больше нуля");
         } else {
-            logger.info(" - параметр i больше или равен нулю");
+            logger.info(" - параметр i меньше или равен нулю");
         }
     }
 }
