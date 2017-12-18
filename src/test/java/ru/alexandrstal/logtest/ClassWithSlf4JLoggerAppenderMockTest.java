@@ -9,7 +9,6 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.ArgumentCaptor;
-import org.mockito.Captor;
 import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
 
@@ -24,7 +23,7 @@ public class ClassWithSlf4JLoggerAppenderMockTest {
     Appender mockAppender;
 
     @Test
-    public void doLoggingTest(){
+    public void doLoggingTest() {
 
 
         // Получаем логгер для нашего класса - причем это не slf4j логгер а все тот

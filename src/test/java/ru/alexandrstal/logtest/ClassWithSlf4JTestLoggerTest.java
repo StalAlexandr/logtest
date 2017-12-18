@@ -22,7 +22,7 @@ public class ClassWithSlf4JTestLoggerTest {
         Assert.assertEquals(" - метод doSomethingWithInt вызван с параметром i = {}", logger.getLoggingEvents().asList().get(0).getMessage());
         Assert.assertEquals(1, logger.getLoggingEvents().asList().get(0).getArguments().get(0));
         Assert.assertEquals(" - параметр i больше нуля", logger.getLoggingEvents().asList().get(1).getMessage());
-        Assert.assertEquals(2,  logger.getLoggingEvents().asList().size());
+        Assert.assertEquals(2, logger.getLoggingEvents().asList().size());
     }
 
     @After
